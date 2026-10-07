@@ -1,0 +1,60 @@
+# The golden set: 40 queries, 8 per intent slice.
+# Queries are typed the way people type them: lowercase, no punctuation, the
+# occasional misspelling. Each has a note on what a good answer looks like,
+# which is the rubric the relevance grades in qrels.tsv were judged against.
+#
+# Grades: 2 = exactly what the person wanted, 1 = a reasonable result to show,
+#         0 = looked at and judged not relevant.
+
+# --- navigational: the person knows the title -------------------------------
+- {id: n01, slice: navigational, query: "inception", note: "The 2010 film. Nothing else is a good answer."}
+- {id: n02, slice: navigational, query: "mad max fury road", note: "The 2015 film."}
+- {id: n03, slice: navigational, query: "the dark knight", note: "The 2008 film is the answer. Other films in the trilogy are acceptable."}
+- {id: n04, slice: navigational, query: "knives out", note: "The 2019 film. Its sequel is acceptable."}
+- {id: n05, slice: navigational, query: "spiderman into the spider verse", note: "The 2018 animated film, typed without the hyphen. Its sequel is acceptable."}
+- {id: n06, slice: navigational, query: "oceans eleven", note: "The 2001 film, typed without the apostrophe. Sequels are acceptable."}
+- {id: n07, slice: navigational, query: "get out", note: "The 2017 film. A title made of two very common words."}
+- {id: n08, slice: navigational, query: "intersteller", note: "Interstellar (2014), misspelled the way it usually is."}
+
+# --- person: the person wants an actor's films -------------------------------
+# Graded by rule: 2 if the actor is in the title's cast list. Titles that only
+# name the actor in the synopsis were checked by hand (2 if they act in it,
+# 1 if they directed or have a cameo, 0 otherwise).
+- {id: p01, slice: person, query: "saoirse ronan movies", note: "Films with Saoirse Ronan in the cast."}
+- {id: p02, slice: person, query: "denzel washington", note: "Films with Denzel Washington in the cast."}
+- {id: p03, slice: person, query: "movies with florence pugh", note: "Films with Florence Pugh in the cast."}
+- {id: p04, slice: person, query: "tom hanks", note: "Films with Tom Hanks in the cast."}
+- {id: p05, slice: person, query: "viola davis", note: "Films with Viola Davis in the cast."}
+- {id: p06, slice: person, query: "keanu reeves movies", note: "Films with Keanu Reeves in the cast."}
+- {id: p07, slice: person, query: "amy adams", note: "Films with Amy Adams in the cast."}
+- {id: p08, slice: person, query: "mahershala ali", note: "Films with Mahershala Ali in the cast."}
+
+# --- category: browsing a genre or sub-genre ---------------------------------
+- {id: c01, slice: category, query: "zombie movies", note: "2 = zombies are the premise. 1 = undead or infected feature but are not the point."}
+- {id: c02, slice: category, query: "heist movies", note: "2 = the plot is a heist or caper. 1 = a robbery matters but it is not a heist film."}
+- {id: c03, slice: category, query: "christmas romantic comedy", note: "2 = a romantic comedy set at Christmas. 1 = a Christmas comedy with a romance thread, or a holiday romance that is not a comedy."}
+- {id: c04, slice: category, query: "sports documentaries", note: "2 = a documentary about a sport or an athlete. 1 = a documentary where sport is a major thread."}
+- {id: c05, slice: category, query: "stop motion animation", note: "2 = a stop-motion feature. 1 = substantially stop-motion mixed with other techniques."}
+- {id: c06, slice: category, query: "found footage horror", note: "2 = horror told as found footage. 1 = mockumentary or screen-recording horror."}
+- {id: c07, slice: category, query: "courtroom drama", note: "2 = the trial is the film. 1 = a legal drama or thriller with significant courtroom time."}
+- {id: c08, slice: category, query: "time travel movies", note: "2 = time travel drives the plot. 1 = time loops or a time-travel device in a supporting role."}
+
+# --- descriptive: the person remembers the plot, not the title ---------------
+- {id: d01, slice: descriptive, query: "astronaut stranded alone on mars", note: "The Martian. 1 = another film about someone stranded on Mars."}
+- {id: d02, slice: descriptive, query: "soldier relives the same day fighting aliens", note: "Edge of Tomorrow. 1 = another soldier-in-a-time-loop film."}
+- {id: d03, slice: descriptive, query: "rat who wants to be a chef in paris", note: "Ratatouille."}
+- {id: d04, slice: descriptive, query: "man falls in love with his computer operating system", note: "Her. 1 = another human and AI romance."}
+- {id: d05, slice: descriptive, query: "jazz drummer with an abusive music teacher", note: "Whiplash. 1 = another film about a young drummer clashing with a mentor."}
+- {id: d06, slice: descriptive, query: "boy visits the land of the dead to find his musician ancestor", note: "Coco."}
+- {id: d07, slice: descriptive, query: "linguist tries to communicate with aliens", note: "Arrival."}
+- {id: d08, slice: descriptive, query: "rival magicians in victorian london", note: "The Prestige. 1 = another period film about stage magicians."}
+
+# --- vibe: the open-ended asks a natural-language search bar invites ---------
+- {id: v01, slice: vibe, query: "feel-good movie about food and cooking", note: "2 = warm, food is central (a chef, a kitchen, a restaurant). 1 = food-centred but not feel-good, or feel-good with food as a side dish."}
+- {id: v02, slice: vibe, query: "something scary but not gory", note: "2 = suspense or supernatural horror that works through dread, not blood. 1 = scary with moderate violence. Slashers and splatter are 0."}
+- {id: v03, slice: vibe, query: "movies that will make me cry", note: "2 = a film known as a tearjerker. 1 = an emotional drama with a sad core."}
+- {id: v04, slice: vibe, query: "mind-bending sci-fi with a twist", note: "2 = science fiction that plays with reality, time or identity. 1 = a twisty thriller with light sci-fi, or sci-fi with a modest puzzle."}
+- {id: v05, slice: vibe, query: "funny movie to watch with the whole family", note: "2 = a comedy made for all ages. 1 = family-friendly with some laughs, or a comedy fine for older kids."}
+- {id: v06, slice: vibe, query: "slow burn psychological thriller", note: "2 = tension built through character and unease. 1 = a psychological thriller that is more plot-driven or fast."}
+- {id: v07, slice: vibe, query: "inspiring true story about an underdog athlete", note: "2 = based on a real athlete or team who beat the odds. 1 = a true sports story without the underdog arc, or a fictional underdog sports film."}
+- {id: v08, slice: vibe, query: "dark comedy about rich people behaving badly", note: "2 = a black comedy or satire aimed at the wealthy. 1 = a satire of privilege in a different register, or a drama about the rich with comic bite."}

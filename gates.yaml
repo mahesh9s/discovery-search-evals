@@ -1,0 +1,39 @@
+# Ship criteria for taking a search candidate to an online A/B test.
+# Written before the first eval run. Change them in a pull request, with a
+# reason, never to make a candidate pass.
+#
+# A candidate must clear every gate. "all" means the whole golden set.
+
+baseline: keyword_meta
+
+# The candidate currently cleared for an online test. CI fails if it stops
+# clearing every gate on either query set (tests/test_decision.py).
+promoted: keyword_pinned
+
+gates:
+  - name: beats_baseline
+    why: >
+      An A/B slot costs weeks of traffic. The offline lift has to be real, so
+      the whole 95% bootstrap interval of (candidate - baseline) must sit above zero.
+    slice: all
+    metric: ndcg@10
+    rule: ci_low_above
+    value: 0.0
+
+  - name: title_lookup_guardrail
+    why: >
+      Typing a title and getting that title first is the most basic promise
+      search makes. No candidate may be worse at it than what ships today.
+    slice: navigational
+    metric: hit@1
+    rule: delta_at_least
+    value: 0.0
+
+  - name: person_lookup_guardrail
+    why: >
+      Actor searches are the second most common known-item intent. A small
+      tolerance for noise, no more.
+    slice: person
+    metric: ndcg@10
+    rule: delta_at_least
+    value: -0.02

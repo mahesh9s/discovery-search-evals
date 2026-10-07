@@ -1,0 +1,30 @@
+# Held-out set: 20 queries, 4 per intent slice.
+# Written after round 1, before the round 2 systems were run on anything, and
+# never used to design or debug a system. Its only job is to check that what
+# was learned on the 40-query development set is not an artefact of those 40.
+# Same rubric and grading process as queries.yaml.
+
+- {id: hn1, slice: navigational, query: "no country for old men", note: "The 2007 film."}
+- {id: hn2, slice: navigational, query: "avengers endgame", note: "The 2019 film, typed without the colon. Other Avengers films are acceptable."}
+- {id: hn3, slice: navigational, query: "wall e", note: "WALL-E (2008), typed without the hyphen."}
+- {id: hn4, slice: navigational, query: "eternal sunshine of the spotles mind", note: "Eternal Sunshine of the Spotless Mind (2004), with a dropped letter."}
+
+- {id: hp1, slice: person, query: "emma stone movies", note: "Films with Emma Stone in the cast."}
+- {id: hp2, slice: person, query: "samuel l jackson", note: "Films with Samuel L. Jackson in the cast."}
+- {id: hp3, slice: person, query: "movies with zendaya", note: "Films with Zendaya in the cast."}
+- {id: hp4, slice: person, query: "christian bale", note: "Films with Christian Bale in the cast."}
+
+- {id: hc1, slice: category, query: "vampire movies", note: "2 = vampires are the premise. 1 = vampires feature among other monsters."}
+- {id: hc2, slice: category, query: "road trip comedy", note: "2 = a comedy built around a road trip. 1 = a road movie with comic moments, or a comedy with a long road-trip stretch."}
+- {id: hc3, slice: category, query: "boxing movies", note: "2 = boxing is the subject. 1 = another combat sport, or boxing as a major thread."}
+- {id: hc4, slice: category, query: "haunted house horror", note: "2 = horror centred on a haunted house. 1 = a haunting in another kind of place, or a haunted-house comedy."}
+
+- {id: hd1, slice: descriptive, query: "old man ties balloons to his house and flies to south america", note: "Up."}
+- {id: hd2, slice: descriptive, query: "couple erase their memories of each other after a breakup", note: "Eternal Sunshine of the Spotless Mind."}
+- {id: hd3, slice: descriptive, query: "fbi agent goes undercover at a beauty pageant", note: "Miss Congeniality. Its sequel is acceptable."}
+- {id: hd4, slice: descriptive, query: "man who is born old and ages backwards", note: "The Curious Case of Benjamin Button."}
+
+- {id: hv1, slice: vibe, query: "heartwarming movie about a dog", note: "2 = a warm film with a dog at its centre. 1 = a dog film that is sad more than warm, or a heartwarming animal film about another pet."}
+- {id: hv2, slice: vibe, query: "gritty crime drama with a morally gray cop", note: "2 = a dark crime film about a compromised or corrupt police officer. 1 = a gritty crime drama where the police are not the moral question."}
+- {id: hv3, slice: vibe, query: "quirky indie comedy about a dysfunctional family", note: "2 = an offbeat comedy or dramedy about a messy family. 1 = a mainstream comedy about a dysfunctional family, or a quirky indie where family is secondary."}
+- {id: hv4, slice: vibe, query: "epic war movie with big battle scenes", note: "2 = a large-scale war film known for its combat. 1 = a smaller-scale combat film, or a historical, fantasy or sci-fi epic with major battles."}

@@ -1,0 +1,35 @@
+# Error analysis for the development set.
+#
+# Every query where a round 1 candidate scored below 0.5 NDCG@10, or lost 0.1
+# or more to the baseline, was read result by result and given one root-cause
+# tag. The tag describes why the query is hard, not which system failed it.
+# `python -m evals.failures` joins these to the results and tallies them.
+
+tags:
+  title_outranked: The exact title exists but a sequel, a lookalike or a common-word match is ranked above it.
+  name_not_understood: An actor's name. The embedding model has no idea who people are, and fusing its guesses in pushes real cast matches down.
+  typo: A misspelled title. Keyword matching returns an empty page.
+  vocabulary_gap: The catalog describes the film in different words from the ones the person used.
+  mood_not_in_metadata: The person asked for a feeling. Synopses describe plot and credits, so there is nothing for any ranker to match.
+
+queries:
+  n03: {tag: title_outranked, note: "The Dark Knight Rises above The Dark Knight once synopses are indexed: the sequel's synopsis repeats the original's title."}
+  n05: {tag: title_outranked, note: "Typed 'spiderman' with no hyphen, so the title match is partial and five other Spider-Man films crowd in."}
+  n06: {tag: title_outranked, note: "Ocean's Twelve above Ocean's Eleven in the fused list."}
+  n07: {tag: title_outranked, note: "'get out' is two common words. The embedding returns Catch and Release and Snow Day; fused, the real title drops to rank 9."}
+  n08: {tag: typo, note: "'intersteller'. Empty page from keyword search. The embedding gets close (space films) and finds Interstellar at rank 6."}
+  p01: {tag: name_not_understood, note: "Saoirse Ronan. Embedding results include both Lord of the Rings films."}
+  p03: {tag: name_not_understood, note: "Florence Pugh. Embedding top 5 has none of her films: Funny Games, She Creature, The Purge."}
+  p05: {tag: name_not_understood, note: "Viola Davis."}
+  p07: {tag: name_not_understood, note: "Amy Adams. Zero of the embedding's top 10 are hers."}
+  p08: {tag: name_not_understood, note: "Mahershala Ali. The embedding returns Talaash, Bol and Thalaivaa; the fused list adds the boxing biopic Ali."}
+  c07: {tag: vocabulary_gap, note: "'courtroom drama'. The catalog's genre label is Legal and only 2 of 5,065 synopses say 'courtroom'. Every system returns generic dramas."}
+  d02: {tag: vocabulary_gap, note: "Edge of Tomorrow's synopsis says 'time loop', the query says 'relives the same day'. Nothing bridges the two."}
+  d04: {tag: vocabulary_gap, note: "Her's synopsis says 'artificially intelligent virtual assistant', the query says 'computer operating system'."}
+  v01: {tag: mood_not_in_metadata, note: "'feel-good' matches I Feel Pretty and Good Luck Chuck. Only the embedding finds Julie & Julia."}
+  v02: {tag: mood_not_in_metadata, note: "'scary but not gory'. Keyword returns the Scary Movie parodies. No field says how violent a film is."}
+  v03: {tag: mood_not_in_metadata, note: "'make me cry' returns Cry Macho and Cry Wolf. Of 28 known tearjerkers, one reaches any system's top 10, at rank 9."}
+  v04: {tag: mood_not_in_metadata, note: "'mind-bending ... with a twist' returns Cinderella III: A Twist in Time."}
+  v05: {tag: mood_not_in_metadata, note: "'funny ... whole family' returns Funny Games, a home-invasion horror film, from keyword search."}
+  v07: {tag: mood_not_in_metadata, note: "Half right: sports biopics surface, but so does DodgeBall: A True Underdog Story."}
+  v08: {tag: mood_not_in_metadata, note: "'behaving badly' returns Bad Samaritan, Bad Times at the El Royale and The Bad Batch."}

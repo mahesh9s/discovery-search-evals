@@ -1,0 +1,121 @@
+system,query_id,slice,query,n_results,ndcg@10,recall@10,mrr@10,hit@1,judged@10
+keyword_meta,hn1,navigational,no country for old men,10,1.0,1.0,1.0,1.0,1.0
+keyword_meta,hn2,navigational,avengers endgame,6,0.9398,1.0,1.0,1.0,1.0
+keyword_meta,hn3,navigational,wall e,10,1.0,1.0,1.0,1.0,1.0
+keyword_meta,hn4,navigational,eternal sunshine of the spotles mind,10,1.0,1.0,1.0,1.0,1.0
+keyword_meta,hp1,person,emma stone movies,10,0.89,0.9,1.0,1.0,1.0
+keyword_meta,hp2,person,samuel l jackson,10,1.0,1.0,1.0,1.0,1.0
+keyword_meta,hp3,person,movies with zendaya,9,0.9779,0.9,1.0,1.0,1.0
+keyword_meta,hp4,person,christian bale,10,1.0,1.0,1.0,1.0,1.0
+keyword_meta,hc1,category,vampire movies,10,1.0,1.0,1.0,1.0,1.0
+keyword_meta,hc2,category,road trip comedy,10,0.6379,0.6,1.0,1.0,1.0
+keyword_meta,hc3,category,boxing movies,2,0.0,0.0,0.0,0.0,1.0
+keyword_meta,hc4,category,haunted house horror,10,0.4537,0.8,1.0,0.0,1.0
+keyword_meta,hd1,descriptive,old man ties balloons to his house and flies to south america,10,0.0,0.0,0.0,0.0,1.0
+keyword_meta,hd2,descriptive,couple erase their memories of each other after a breakup,10,0.0,0.0,0.0,0.0,1.0
+keyword_meta,hd3,descriptive,fbi agent goes undercover at a beauty pageant,10,0.0,0.0,0.0,0.0,1.0
+keyword_meta,hd4,descriptive,man who is born old and ages backwards,10,0.0,0.0,0.0,0.0,1.0
+keyword_meta,hv1,vibe,heartwarming movie about a dog,10,0.0,0.0,0.0,0.0,1.0
+keyword_meta,hv2,vibe,gritty crime drama with a morally gray cop,10,0.2144,0.3,1.0,0.0,1.0
+keyword_meta,hv3,vibe,quirky indie comedy about a dysfunctional family,10,0.0528,0.2,0.2,0.0,1.0
+keyword_meta,hv4,vibe,epic war movie with big battle scenes,10,0.0734,0.1,1.0,0.0,1.0
+keyword_full,hn1,navigational,no country for old men,10,1.0,1.0,1.0,1.0,1.0
+keyword_full,hn2,navigational,avengers endgame,10,0.9465,1.0,1.0,1.0,1.0
+keyword_full,hn3,navigational,wall e,10,1.0,1.0,1.0,1.0,1.0
+keyword_full,hn4,navigational,eternal sunshine of the spotles mind,10,1.0,1.0,1.0,1.0,1.0
+keyword_full,hp1,person,emma stone movies,10,0.9266,0.9,1.0,1.0,1.0
+keyword_full,hp2,person,samuel l jackson,10,1.0,1.0,1.0,1.0,1.0
+keyword_full,hp3,person,movies with zendaya,10,1.0,1.0,1.0,1.0,1.0
+keyword_full,hp4,person,christian bale,10,1.0,1.0,1.0,1.0,1.0
+keyword_full,hc1,category,vampire movies,10,1.0,1.0,1.0,1.0,1.0
+keyword_full,hc2,category,road trip comedy,10,0.859,1.0,1.0,1.0,1.0
+keyword_full,hc3,category,boxing movies,10,0.0,0.0,0.0,0.0,1.0
+keyword_full,hc4,category,haunted house horror,10,0.6174,0.9,1.0,0.0,1.0
+keyword_full,hd1,descriptive,old man ties balloons to his house and flies to south america,10,0.0,0.0,0.0,0.0,1.0
+keyword_full,hd2,descriptive,couple erase their memories of each other after a breakup,10,0.0,0.0,0.0,0.0,1.0
+keyword_full,hd3,descriptive,fbi agent goes undercover at a beauty pageant,10,0.8262,0.5,1.0,1.0,1.0
+keyword_full,hd4,descriptive,man who is born old and ages backwards,10,0.0,0.0,0.0,0.0,1.0
+keyword_full,hv1,vibe,heartwarming movie about a dog,10,0.4407,0.7,0.5,0.0,1.0
+keyword_full,hv2,vibe,gritty crime drama with a morally gray cop,10,0.2857,0.6,0.5,0.0,1.0
+keyword_full,hv3,vibe,quirky indie comedy about a dysfunctional family,10,0.2948,0.7,0.5,0.0,1.0
+keyword_full,hv4,vibe,epic war movie with big battle scenes,10,0.5415,0.8,1.0,1.0,1.0
+semantic,hn1,navigational,no country for old men,10,1.0,1.0,1.0,1.0,1.0
+semantic,hn2,navigational,avengers endgame,10,1.0,1.0,1.0,1.0,1.0
+semantic,hn3,navigational,wall e,10,0.0,0.0,0.0,0.0,1.0
+semantic,hn4,navigational,eternal sunshine of the spotles mind,10,1.0,1.0,1.0,1.0,1.0
+semantic,hp1,person,emma stone movies,10,0.5384,0.4,1.0,1.0,1.0
+semantic,hp2,person,samuel l jackson,10,0.3917,0.5,0.3333,0.0,1.0
+semantic,hp3,person,movies with zendaya,10,0.0725,0.1,0.125,0.0,1.0
+semantic,hp4,person,christian bale,10,0.0948,0.1,0.25,0.0,1.0
+semantic,hc1,category,vampire movies,10,0.8416,0.8,1.0,1.0,1.0
+semantic,hc2,category,road trip comedy,10,0.6941,0.8,1.0,1.0,1.0
+semantic,hc3,category,boxing movies,10,0.0,0.0,0.0,0.0,1.0
+semantic,hc4,category,haunted house horror,10,0.6215,0.9,1.0,0.0,1.0
+semantic,hd1,descriptive,old man ties balloons to his house and flies to south america,10,0.0,0.0,0.0,0.0,1.0
+semantic,hd2,descriptive,couple erase their memories of each other after a breakup,10,0.0,0.0,0.0,0.0,1.0
+semantic,hd3,descriptive,fbi agent goes undercover at a beauty pageant,10,0.0,0.0,0.0,0.0,1.0
+semantic,hd4,descriptive,man who is born old and ages backwards,10,0.0,0.0,0.0,0.0,1.0
+semantic,hv1,vibe,heartwarming movie about a dog,10,0.6625,0.7,1.0,1.0,1.0
+semantic,hv2,vibe,gritty crime drama with a morally gray cop,10,0.3098,0.6,1.0,0.0,1.0
+semantic,hv3,vibe,quirky indie comedy about a dysfunctional family,10,0.0757,0.3,0.2,0.0,1.0
+semantic,hv4,vibe,epic war movie with big battle scenes,10,0.3517,0.6,1.0,1.0,1.0
+hybrid,hn1,navigational,no country for old men,10,1.0,1.0,1.0,1.0,1.0
+hybrid,hn2,navigational,avengers endgame,10,1.0,1.0,1.0,1.0,1.0
+hybrid,hn3,navigational,wall e,10,0.0,0.0,0.0,0.0,1.0
+hybrid,hn4,navigational,eternal sunshine of the spotles mind,10,1.0,1.0,1.0,1.0,1.0
+hybrid,hp1,person,emma stone movies,10,0.8553,0.8,1.0,1.0,1.0
+hybrid,hp2,person,samuel l jackson,10,1.0,1.0,1.0,1.0,1.0
+hybrid,hp3,person,movies with zendaya,10,0.5847,0.5,1.0,1.0,1.0
+hybrid,hp4,person,christian bale,10,0.6719,0.6,1.0,1.0,1.0
+hybrid,hc1,category,vampire movies,10,1.0,1.0,1.0,1.0,1.0
+hybrid,hc2,category,road trip comedy,10,0.9048,1.0,1.0,1.0,1.0
+hybrid,hc3,category,boxing movies,10,0.0636,0.1,0.1,0.0,1.0
+hybrid,hc4,category,haunted house horror,10,0.6639,0.9,1.0,0.0,1.0
+hybrid,hd1,descriptive,old man ties balloons to his house and flies to south america,10,0.0,0.0,0.0,0.0,1.0
+hybrid,hd2,descriptive,couple erase their memories of each other after a breakup,10,0.0,0.0,0.0,0.0,1.0
+hybrid,hd3,descriptive,fbi agent goes undercover at a beauty pageant,10,0.0,0.0,0.0,0.0,1.0
+hybrid,hd4,descriptive,man who is born old and ages backwards,10,0.0,0.0,0.0,0.0,1.0
+hybrid,hv1,vibe,heartwarming movie about a dog,10,0.682,0.8,1.0,1.0,1.0
+hybrid,hv2,vibe,gritty crime drama with a morally gray cop,10,0.3895,0.5,1.0,1.0,1.0
+hybrid,hv3,vibe,quirky indie comedy about a dysfunctional family,10,0.1371,0.5,0.3333,0.0,1.0
+hybrid,hv4,vibe,epic war movie with big battle scenes,10,0.5527,0.8,1.0,1.0,1.0
+keyword_pinned,hn1,navigational,no country for old men,10,1.0,1.0,1.0,1.0,1.0
+keyword_pinned,hn2,navigational,avengers endgame,10,0.9465,1.0,1.0,1.0,1.0
+keyword_pinned,hn3,navigational,wall e,10,1.0,1.0,1.0,1.0,1.0
+keyword_pinned,hn4,navigational,eternal sunshine of the spotles mind,10,1.0,1.0,1.0,1.0,1.0
+keyword_pinned,hp1,person,emma stone movies,10,1.0,1.0,1.0,1.0,1.0
+keyword_pinned,hp2,person,samuel l jackson,10,1.0,1.0,1.0,1.0,1.0
+keyword_pinned,hp3,person,movies with zendaya,10,1.0,1.0,1.0,1.0,1.0
+keyword_pinned,hp4,person,christian bale,10,1.0,1.0,1.0,1.0,1.0
+keyword_pinned,hc1,category,vampire movies,10,1.0,1.0,1.0,1.0,1.0
+keyword_pinned,hc2,category,road trip comedy,10,0.859,1.0,1.0,1.0,1.0
+keyword_pinned,hc3,category,boxing movies,10,0.0,0.0,0.0,0.0,1.0
+keyword_pinned,hc4,category,haunted house horror,10,0.6174,0.9,1.0,0.0,1.0
+keyword_pinned,hd1,descriptive,old man ties balloons to his house and flies to south america,10,0.0,0.0,0.0,0.0,1.0
+keyword_pinned,hd2,descriptive,couple erase their memories of each other after a breakup,10,0.0,0.0,0.0,0.0,1.0
+keyword_pinned,hd3,descriptive,fbi agent goes undercover at a beauty pageant,10,0.8262,0.5,1.0,1.0,1.0
+keyword_pinned,hd4,descriptive,man who is born old and ages backwards,10,0.0,0.0,0.0,0.0,1.0
+keyword_pinned,hv1,vibe,heartwarming movie about a dog,10,0.4407,0.7,0.5,0.0,1.0
+keyword_pinned,hv2,vibe,gritty crime drama with a morally gray cop,10,0.2857,0.6,0.5,0.0,1.0
+keyword_pinned,hv3,vibe,quirky indie comedy about a dysfunctional family,10,0.2948,0.7,0.5,0.0,1.0
+keyword_pinned,hv4,vibe,epic war movie with big battle scenes,10,0.5415,0.8,1.0,1.0,1.0
+hybrid_pinned,hn1,navigational,no country for old men,10,1.0,1.0,1.0,1.0,1.0
+hybrid_pinned,hn2,navigational,avengers endgame,10,1.0,1.0,1.0,1.0,1.0
+hybrid_pinned,hn3,navigational,wall e,10,1.0,1.0,1.0,1.0,1.0
+hybrid_pinned,hn4,navigational,eternal sunshine of the spotles mind,10,1.0,1.0,1.0,1.0,1.0
+hybrid_pinned,hp1,person,emma stone movies,10,1.0,1.0,1.0,1.0,1.0
+hybrid_pinned,hp2,person,samuel l jackson,10,1.0,1.0,1.0,1.0,1.0
+hybrid_pinned,hp3,person,movies with zendaya,10,1.0,1.0,1.0,1.0,1.0
+hybrid_pinned,hp4,person,christian bale,10,1.0,1.0,1.0,1.0,1.0
+hybrid_pinned,hc1,category,vampire movies,10,1.0,1.0,1.0,1.0,1.0
+hybrid_pinned,hc2,category,road trip comedy,10,0.9048,1.0,1.0,1.0,1.0
+hybrid_pinned,hc3,category,boxing movies,10,0.0636,0.1,0.1,0.0,1.0
+hybrid_pinned,hc4,category,haunted house horror,10,0.6639,0.9,1.0,0.0,1.0
+hybrid_pinned,hd1,descriptive,old man ties balloons to his house and flies to south america,10,0.0,0.0,0.0,0.0,1.0
+hybrid_pinned,hd2,descriptive,couple erase their memories of each other after a breakup,10,0.0,0.0,0.0,0.0,1.0
+hybrid_pinned,hd3,descriptive,fbi agent goes undercover at a beauty pageant,10,0.0,0.0,0.0,0.0,1.0
+hybrid_pinned,hd4,descriptive,man who is born old and ages backwards,10,0.0,0.0,0.0,0.0,1.0
+hybrid_pinned,hv1,vibe,heartwarming movie about a dog,10,0.682,0.8,1.0,1.0,1.0
+hybrid_pinned,hv2,vibe,gritty crime drama with a morally gray cop,10,0.3895,0.5,1.0,1.0,1.0
+hybrid_pinned,hv3,vibe,quirky indie comedy about a dysfunctional family,10,0.1371,0.5,0.3333,0.0,1.0
+hybrid_pinned,hv4,vibe,epic war movie with big battle scenes,10,0.5527,0.8,1.0,1.0,1.0

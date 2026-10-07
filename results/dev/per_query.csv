@@ -1,0 +1,241 @@
+system,query_id,slice,query,n_results,ndcg@10,recall@10,mrr@10,hit@1,judged@10
+keyword_meta,n01,navigational,inception,1,1.0,1.0,1.0,1.0,1.0
+keyword_meta,n02,navigational,mad max fury road,10,1.0,1.0,1.0,1.0,1.0
+keyword_meta,n03,navigational,the dark knight,10,0.8473,0.6667,1.0,1.0,1.0
+keyword_meta,n04,navigational,knives out,10,0.7967,1.0,1.0,0.0,1.0
+keyword_meta,n05,navigational,spiderman into the spider verse,10,1.0,1.0,1.0,1.0,1.0
+keyword_meta,n06,navigational,oceans eleven,5,0.9465,1.0,1.0,1.0,1.0
+keyword_meta,n07,navigational,get out,10,1.0,1.0,1.0,1.0,1.0
+keyword_meta,n08,navigational,intersteller,0,0.0,0.0,0.0,0.0,1.0
+keyword_meta,p01,person,saoirse ronan movies,10,1.0,1.0,1.0,1.0,1.0
+keyword_meta,p02,person,denzel washington,10,1.0,1.0,1.0,1.0,1.0
+keyword_meta,p03,person,movies with florence pugh,10,1.0,1.0,1.0,1.0,1.0
+keyword_meta,p04,person,tom hanks,10,1.0,1.0,1.0,1.0,1.0
+keyword_meta,p05,person,viola davis,10,1.0,1.0,1.0,1.0,1.0
+keyword_meta,p06,person,keanu reeves movies,10,1.0,1.0,1.0,1.0,1.0
+keyword_meta,p07,person,amy adams,10,0.9364,0.9,1.0,1.0,1.0
+keyword_meta,p08,person,mahershala ali,10,0.8359,0.75,1.0,1.0,1.0
+keyword_meta,c01,category,zombie movies,8,0.469,0.3,1.0,1.0,1.0
+keyword_meta,c02,category,heist movies,2,0.359,0.2,1.0,1.0,1.0
+keyword_meta,c03,category,christmas romantic comedy,10,0.2122,0.4,0.25,0.0,1.0
+keyword_meta,c04,category,sports documentaries,10,0.2754,0.2222,0.5,0.0,1.0
+keyword_meta,c05,category,stop motion animation,10,0.0,0.0,0.0,0.0,1.0
+keyword_meta,c06,category,found footage horror,10,0.9558,1.0,1.0,1.0,1.0
+keyword_meta,c07,category,courtroom drama,10,0.0,0.0,0.0,0.0,1.0
+keyword_meta,c08,category,time travel movies,10,0.3647,0.3,1.0,1.0,1.0
+keyword_meta,d01,descriptive,astronaut stranded alone on mars,10,0.0829,0.5,0.1111,0.0,1.0
+keyword_meta,d02,descriptive,soldier relives the same day fighting aliens,10,0.0,0.0,0.0,0.0,1.0
+keyword_meta,d03,descriptive,rat who wants to be a chef in paris,10,0.0,0.0,0.0,0.0,1.0
+keyword_meta,d04,descriptive,man falls in love with his computer operating system,10,0.0,0.0,0.0,0.0,1.0
+keyword_meta,d05,descriptive,jazz drummer with an abusive music teacher,10,0.0,0.0,0.0,0.0,1.0
+keyword_meta,d06,descriptive,boy visits the land of the dead to find his musician ancestor,10,0.0,0.0,0.0,0.0,1.0
+keyword_meta,d07,descriptive,linguist tries to communicate with aliens,10,0.0,0.0,0.0,0.0,1.0
+keyword_meta,d08,descriptive,rival magicians in victorian london,10,0.0,0.0,0.0,0.0,1.0
+keyword_meta,v01,vibe,feel-good movie about food and cooking,10,0.0311,0.1,0.2,0.0,1.0
+keyword_meta,v02,vibe,something scary but not gory,10,0.1223,0.3,0.25,0.0,1.0
+keyword_meta,v03,vibe,movies that will make me cry,10,0.0,0.0,0.0,0.0,1.0
+keyword_meta,v04,vibe,mind-bending sci-fi with a twist,7,0.1467,0.2,1.0,0.0,1.0
+keyword_meta,v05,vibe,funny movie to watch with the whole family,10,0.0,0.0,0.0,0.0,1.0
+keyword_meta,v06,vibe,slow burn psychological thriller,10,0.1017,0.2,1.0,0.0,1.0
+keyword_meta,v07,vibe,inspiring true story about an underdog athlete,10,0.1834,0.2,1.0,0.0,1.0
+keyword_meta,v08,vibe,dark comedy about rich people behaving badly,10,0.0,0.0,0.0,0.0,1.0
+keyword_full,n01,navigational,inception,2,1.0,1.0,1.0,1.0,1.0
+keyword_full,n02,navigational,mad max fury road,10,1.0,1.0,1.0,1.0,1.0
+keyword_full,n03,navigational,the dark knight,10,0.7003,0.6667,1.0,0.0,1.0
+keyword_full,n04,navigational,knives out,10,0.7967,1.0,1.0,0.0,1.0
+keyword_full,n05,navigational,spiderman into the spider verse,10,0.7967,1.0,1.0,0.0,1.0
+keyword_full,n06,navigational,oceans eleven,10,0.9904,1.0,1.0,1.0,1.0
+keyword_full,n07,navigational,get out,10,1.0,1.0,1.0,1.0,1.0
+keyword_full,n08,navigational,intersteller,0,0.0,0.0,0.0,0.0,1.0
+keyword_full,p01,person,saoirse ronan movies,10,1.0,1.0,1.0,1.0,1.0
+keyword_full,p02,person,denzel washington,10,1.0,1.0,1.0,1.0,1.0
+keyword_full,p03,person,movies with florence pugh,10,1.0,1.0,1.0,1.0,1.0
+keyword_full,p04,person,tom hanks,10,1.0,1.0,1.0,1.0,1.0
+keyword_full,p05,person,viola davis,10,1.0,1.0,1.0,1.0,1.0
+keyword_full,p06,person,keanu reeves movies,10,1.0,1.0,1.0,1.0,1.0
+keyword_full,p07,person,amy adams,10,1.0,1.0,1.0,1.0,1.0
+keyword_full,p08,person,mahershala ali,10,1.0,1.0,1.0,1.0,1.0
+keyword_full,c01,category,zombie movies,10,0.7264,0.7,1.0,1.0,1.0
+keyword_full,c02,category,heist movies,10,1.0,1.0,1.0,1.0,1.0
+keyword_full,c03,category,christmas romantic comedy,10,0.7645,0.9,1.0,1.0,1.0
+keyword_full,c04,category,sports documentaries,10,0.6327,0.4444,1.0,1.0,1.0
+keyword_full,c05,category,stop motion animation,10,0.865,1.0,1.0,1.0,1.0
+keyword_full,c06,category,found footage horror,10,0.9511,1.0,1.0,1.0,1.0
+keyword_full,c07,category,courtroom drama,10,0.0734,0.1,1.0,0.0,1.0
+keyword_full,c08,category,time travel movies,10,0.7059,0.6,1.0,1.0,1.0
+keyword_full,d01,descriptive,astronaut stranded alone on mars,10,0.595,1.0,1.0,0.0,1.0
+keyword_full,d02,descriptive,soldier relives the same day fighting aliens,10,0.0,0.0,0.0,0.0,1.0
+keyword_full,d03,descriptive,rat who wants to be a chef in paris,10,1.0,1.0,1.0,1.0,1.0
+keyword_full,d04,descriptive,man falls in love with his computer operating system,10,0.0,0.0,0.0,0.0,1.0
+keyword_full,d05,descriptive,jazz drummer with an abusive music teacher,10,0.9448,1.0,1.0,1.0,1.0
+keyword_full,d06,descriptive,boy visits the land of the dead to find his musician ancestor,10,0.8262,0.5,1.0,1.0,1.0
+keyword_full,d07,descriptive,linguist tries to communicate with aliens,10,1.0,1.0,1.0,1.0,1.0
+keyword_full,d08,descriptive,rival magicians in victorian london,10,0.7521,0.5,1.0,1.0,1.0
+keyword_full,v01,vibe,feel-good movie about food and cooking,10,0.0,0.0,0.0,0.0,1.0
+keyword_full,v02,vibe,something scary but not gory,10,0.0996,0.2,0.1667,0.0,1.0
+keyword_full,v03,vibe,movies that will make me cry,10,0.1208,0.3,0.2,0.0,1.0
+keyword_full,v04,vibe,mind-bending sci-fi with a twist,10,0.1795,0.3,0.5,0.0,1.0
+keyword_full,v05,vibe,funny movie to watch with the whole family,10,0.0734,0.1,0.1429,0.0,1.0
+keyword_full,v06,vibe,slow burn psychological thriller,10,0.2048,0.3,1.0,0.0,1.0
+keyword_full,v07,vibe,inspiring true story about an underdog athlete,10,0.439,0.5,1.0,0.0,1.0
+keyword_full,v08,vibe,dark comedy about rich people behaving badly,10,0.0747,0.2,0.5,0.0,1.0
+semantic,n01,navigational,inception,10,1.0,1.0,1.0,1.0,1.0
+semantic,n02,navigational,mad max fury road,10,1.0,1.0,1.0,1.0,1.0
+semantic,n03,navigational,the dark knight,10,0.7703,1.0,1.0,0.0,1.0
+semantic,n04,navigational,knives out,10,0.5869,1.0,0.5,0.0,1.0
+semantic,n05,navigational,spiderman into the spider verse,10,0.5508,1.0,1.0,0.0,1.0
+semantic,n06,navigational,oceans eleven,10,0.5226,0.75,1.0,0.0,1.0
+semantic,n07,navigational,get out,10,0.0,0.0,0.0,0.0,1.0
+semantic,n08,navigational,intersteller,10,0.3562,1.0,0.1667,0.0,1.0
+semantic,p01,person,saoirse ronan movies,10,0.359,0.2,1.0,1.0,1.0
+semantic,p02,person,denzel washington,10,0.5894,0.5,1.0,1.0,1.0
+semantic,p03,person,movies with florence pugh,10,0.0,0.0,0.0,0.0,1.0
+semantic,p04,person,tom hanks,10,0.6422,0.5,1.0,1.0,1.0
+semantic,p05,person,viola davis,10,0.3757,0.4,0.5,0.0,1.0
+semantic,p06,person,keanu reeves movies,10,0.4584,0.5,1.0,0.0,1.0
+semantic,p07,person,amy adams,10,0.0,0.0,0.0,0.0,1.0
+semantic,p08,person,mahershala ali,10,0.2529,0.125,1.0,1.0,1.0
+semantic,c01,category,zombie movies,10,0.6379,0.7,0.5,0.0,1.0
+semantic,c02,category,heist movies,10,0.0,0.0,0.0,0.0,1.0
+semantic,c03,category,christmas romantic comedy,10,0.4376,0.6,0.3333,0.0,1.0
+semantic,c04,category,sports documentaries,10,0.6722,0.4444,1.0,1.0,1.0
+semantic,c05,category,stop motion animation,10,0.1732,0.2,0.25,0.0,1.0
+semantic,c06,category,found footage horror,10,0.7801,0.9,1.0,1.0,1.0
+semantic,c07,category,courtroom drama,10,0.128,0.3,0.2,0.0,1.0
+semantic,c08,category,time travel movies,10,0.3933,0.3,1.0,1.0,1.0
+semantic,d01,descriptive,astronaut stranded alone on mars,10,1.0,1.0,1.0,1.0,1.0
+semantic,d02,descriptive,soldier relives the same day fighting aliens,10,0.0,0.0,0.0,0.0,1.0
+semantic,d03,descriptive,rat who wants to be a chef in paris,10,1.0,1.0,1.0,1.0,1.0
+semantic,d04,descriptive,man falls in love with his computer operating system,10,0.0,0.0,0.0,0.0,1.0
+semantic,d05,descriptive,jazz drummer with an abusive music teacher,10,1.0,1.0,1.0,1.0,1.0
+semantic,d06,descriptive,boy visits the land of the dead to find his musician ancestor,10,0.8262,0.5,1.0,1.0,1.0
+semantic,d07,descriptive,linguist tries to communicate with aliens,10,0.3562,1.0,0.1667,0.0,1.0
+semantic,d08,descriptive,rival magicians in victorian london,10,0.6577,0.25,1.0,1.0,1.0
+semantic,v01,vibe,feel-good movie about food and cooking,10,0.241,0.1,1.0,1.0,1.0
+semantic,v02,vibe,something scary but not gory,10,0.3203,0.5,1.0,0.0,1.0
+semantic,v03,vibe,movies that will make me cry,10,0.0463,0.1,0.5,0.0,1.0
+semantic,v04,vibe,mind-bending sci-fi with a twist,10,0.0954,0.2,1.0,0.0,1.0
+semantic,v05,vibe,funny movie to watch with the whole family,10,0.5252,0.7,0.3333,0.0,1.0
+semantic,v06,vibe,slow burn psychological thriller,10,0.5714,1.0,1.0,1.0,1.0
+semantic,v07,vibe,inspiring true story about an underdog athlete,10,0.3132,0.6,1.0,0.0,1.0
+semantic,v08,vibe,dark comedy about rich people behaving badly,10,0.0,0.0,0.0,0.0,1.0
+hybrid,n01,navigational,inception,10,1.0,1.0,1.0,1.0,1.0
+hybrid,n02,navigational,mad max fury road,10,1.0,1.0,1.0,1.0,1.0
+hybrid,n03,navigational,the dark knight,10,0.7003,0.6667,1.0,0.0,1.0
+hybrid,n04,navigational,knives out,10,0.7967,1.0,1.0,0.0,1.0
+hybrid,n05,navigational,spiderman into the spider verse,10,0.6313,1.0,1.0,0.0,1.0
+hybrid,n06,navigational,oceans eleven,10,0.8382,1.0,1.0,0.0,1.0
+hybrid,n07,navigational,get out,10,0.301,1.0,0.1111,0.0,1.0
+hybrid,n08,navigational,intersteller,10,0.3562,1.0,0.1667,0.0,1.0
+hybrid,p01,person,saoirse ronan movies,10,0.8701,0.8,1.0,1.0,1.0
+hybrid,p02,person,denzel washington,10,1.0,1.0,1.0,1.0,1.0
+hybrid,p03,person,movies with florence pugh,10,0.6117,0.5556,1.0,1.0,1.0
+hybrid,p04,person,tom hanks,10,1.0,1.0,1.0,1.0,1.0
+hybrid,p05,person,viola davis,10,0.8572,0.8,1.0,1.0,1.0
+hybrid,p06,person,keanu reeves movies,10,0.9432,1.0,1.0,1.0,1.0
+hybrid,p07,person,amy adams,10,0.5501,0.6,0.5,0.0,1.0
+hybrid,p08,person,mahershala ali,10,0.6667,0.625,1.0,1.0,1.0
+hybrid,c01,category,zombie movies,10,0.7097,0.7,1.0,1.0,1.0
+hybrid,c02,category,heist movies,10,0.6719,0.6,1.0,1.0,1.0
+hybrid,c03,category,christmas romantic comedy,10,0.7058,0.8,1.0,1.0,1.0
+hybrid,c04,category,sports documentaries,10,0.6582,0.4444,1.0,1.0,1.0
+hybrid,c05,category,stop motion animation,10,0.7601,0.7,1.0,1.0,1.0
+hybrid,c06,category,found footage horror,10,0.9069,1.0,1.0,1.0,1.0
+hybrid,c07,category,courtroom drama,10,0.0734,0.1,1.0,0.0,1.0
+hybrid,c08,category,time travel movies,10,0.63,0.5,1.0,1.0,1.0
+hybrid,d01,descriptive,astronaut stranded alone on mars,10,0.6885,1.0,1.0,0.0,1.0
+hybrid,d02,descriptive,soldier relives the same day fighting aliens,10,0.0,0.0,0.0,0.0,1.0
+hybrid,d03,descriptive,rat who wants to be a chef in paris,10,1.0,1.0,1.0,1.0,1.0
+hybrid,d04,descriptive,man falls in love with his computer operating system,10,0.0,0.0,0.0,0.0,1.0
+hybrid,d05,descriptive,jazz drummer with an abusive music teacher,10,1.0,1.0,1.0,1.0,1.0
+hybrid,d06,descriptive,boy visits the land of the dead to find his musician ancestor,10,0.8262,0.5,1.0,1.0,1.0
+hybrid,d07,descriptive,linguist tries to communicate with aliens,10,0.6309,1.0,0.5,0.0,1.0
+hybrid,d08,descriptive,rival magicians in victorian london,10,0.721,0.5,1.0,1.0,1.0
+hybrid,v01,vibe,feel-good movie about food and cooking,10,0.0983,0.2,0.1667,0.0,1.0
+hybrid,v02,vibe,something scary but not gory,10,0.3236,0.4,0.5,0.0,1.0
+hybrid,v03,vibe,movies that will make me cry,10,0.0245,0.1,0.1429,0.0,1.0
+hybrid,v04,vibe,mind-bending sci-fi with a twist,10,0.2319,0.4,0.5,0.0,1.0
+hybrid,v05,vibe,funny movie to watch with the whole family,10,0.3752,0.7,0.3333,0.0,1.0
+hybrid,v06,vibe,slow burn psychological thriller,10,0.5154,0.8,1.0,1.0,1.0
+hybrid,v07,vibe,inspiring true story about an underdog athlete,10,0.462,0.9,0.5,0.0,1.0
+hybrid,v08,vibe,dark comedy about rich people behaving badly,10,0.1262,0.3,1.0,0.0,1.0
+keyword_pinned,n01,navigational,inception,2,1.0,1.0,1.0,1.0,1.0
+keyword_pinned,n02,navigational,mad max fury road,10,1.0,1.0,1.0,1.0,1.0
+keyword_pinned,n03,navigational,the dark knight,10,0.879,0.6667,1.0,1.0,1.0
+keyword_pinned,n04,navigational,knives out,10,1.0,1.0,1.0,1.0,1.0
+keyword_pinned,n05,navigational,spiderman into the spider verse,10,0.7967,1.0,1.0,0.0,1.0
+keyword_pinned,n06,navigational,oceans eleven,10,0.9904,1.0,1.0,1.0,1.0
+keyword_pinned,n07,navigational,get out,10,1.0,1.0,1.0,1.0,1.0
+keyword_pinned,n08,navigational,intersteller,0,0.0,0.0,0.0,0.0,1.0
+keyword_pinned,p01,person,saoirse ronan movies,10,1.0,1.0,1.0,1.0,1.0
+keyword_pinned,p02,person,denzel washington,10,1.0,1.0,1.0,1.0,1.0
+keyword_pinned,p03,person,movies with florence pugh,10,1.0,1.0,1.0,1.0,1.0
+keyword_pinned,p04,person,tom hanks,10,1.0,1.0,1.0,1.0,1.0
+keyword_pinned,p05,person,viola davis,10,1.0,1.0,1.0,1.0,1.0
+keyword_pinned,p06,person,keanu reeves movies,10,1.0,1.0,1.0,1.0,1.0
+keyword_pinned,p07,person,amy adams,10,1.0,1.0,1.0,1.0,1.0
+keyword_pinned,p08,person,mahershala ali,10,1.0,1.0,1.0,1.0,1.0
+keyword_pinned,c01,category,zombie movies,10,0.7264,0.7,1.0,1.0,1.0
+keyword_pinned,c02,category,heist movies,10,1.0,1.0,1.0,1.0,1.0
+keyword_pinned,c03,category,christmas romantic comedy,10,0.7645,0.9,1.0,1.0,1.0
+keyword_pinned,c04,category,sports documentaries,10,0.6327,0.4444,1.0,1.0,1.0
+keyword_pinned,c05,category,stop motion animation,10,0.865,1.0,1.0,1.0,1.0
+keyword_pinned,c06,category,found footage horror,10,0.9511,1.0,1.0,1.0,1.0
+keyword_pinned,c07,category,courtroom drama,10,0.0734,0.1,1.0,0.0,1.0
+keyword_pinned,c08,category,time travel movies,10,0.7059,0.6,1.0,1.0,1.0
+keyword_pinned,d01,descriptive,astronaut stranded alone on mars,10,0.595,1.0,1.0,0.0,1.0
+keyword_pinned,d02,descriptive,soldier relives the same day fighting aliens,10,0.0,0.0,0.0,0.0,1.0
+keyword_pinned,d03,descriptive,rat who wants to be a chef in paris,10,1.0,1.0,1.0,1.0,1.0
+keyword_pinned,d04,descriptive,man falls in love with his computer operating system,10,0.0,0.0,0.0,0.0,1.0
+keyword_pinned,d05,descriptive,jazz drummer with an abusive music teacher,10,0.9448,1.0,1.0,1.0,1.0
+keyword_pinned,d06,descriptive,boy visits the land of the dead to find his musician ancestor,10,0.8262,0.5,1.0,1.0,1.0
+keyword_pinned,d07,descriptive,linguist tries to communicate with aliens,10,1.0,1.0,1.0,1.0,1.0
+keyword_pinned,d08,descriptive,rival magicians in victorian london,10,0.7521,0.5,1.0,1.0,1.0
+keyword_pinned,v01,vibe,feel-good movie about food and cooking,10,0.0,0.0,0.0,0.0,1.0
+keyword_pinned,v02,vibe,something scary but not gory,10,0.0996,0.2,0.1667,0.0,1.0
+keyword_pinned,v03,vibe,movies that will make me cry,10,0.1208,0.3,0.2,0.0,1.0
+keyword_pinned,v04,vibe,mind-bending sci-fi with a twist,10,0.1795,0.3,0.5,0.0,1.0
+keyword_pinned,v05,vibe,funny movie to watch with the whole family,10,0.0734,0.1,0.1429,0.0,1.0
+keyword_pinned,v06,vibe,slow burn psychological thriller,10,0.2048,0.3,1.0,0.0,1.0
+keyword_pinned,v07,vibe,inspiring true story about an underdog athlete,10,0.439,0.5,1.0,0.0,1.0
+keyword_pinned,v08,vibe,dark comedy about rich people behaving badly,10,0.0747,0.2,0.5,0.0,1.0
+hybrid_pinned,n01,navigational,inception,10,1.0,1.0,1.0,1.0,1.0
+hybrid_pinned,n02,navigational,mad max fury road,10,1.0,1.0,1.0,1.0,1.0
+hybrid_pinned,n03,navigational,the dark knight,10,0.879,0.6667,1.0,1.0,1.0
+hybrid_pinned,n04,navigational,knives out,10,1.0,1.0,1.0,1.0,1.0
+hybrid_pinned,n05,navigational,spiderman into the spider verse,10,0.6313,1.0,1.0,0.0,1.0
+hybrid_pinned,n06,navigational,oceans eleven,10,1.0,1.0,1.0,1.0,1.0
+hybrid_pinned,n07,navigational,get out,10,1.0,1.0,1.0,1.0,1.0
+hybrid_pinned,n08,navigational,intersteller,10,0.3562,1.0,0.1667,0.0,1.0
+hybrid_pinned,p01,person,saoirse ronan movies,10,1.0,1.0,1.0,1.0,1.0
+hybrid_pinned,p02,person,denzel washington,10,1.0,1.0,1.0,1.0,1.0
+hybrid_pinned,p03,person,movies with florence pugh,10,1.0,1.0,1.0,1.0,1.0
+hybrid_pinned,p04,person,tom hanks,10,1.0,1.0,1.0,1.0,1.0
+hybrid_pinned,p05,person,viola davis,10,1.0,1.0,1.0,1.0,1.0
+hybrid_pinned,p06,person,keanu reeves movies,10,1.0,1.0,1.0,1.0,1.0
+hybrid_pinned,p07,person,amy adams,10,1.0,1.0,1.0,1.0,1.0
+hybrid_pinned,p08,person,mahershala ali,10,0.909,0.875,1.0,1.0,1.0
+hybrid_pinned,c01,category,zombie movies,10,0.7097,0.7,1.0,1.0,1.0
+hybrid_pinned,c02,category,heist movies,10,0.6719,0.6,1.0,1.0,1.0
+hybrid_pinned,c03,category,christmas romantic comedy,10,0.7058,0.8,1.0,1.0,1.0
+hybrid_pinned,c04,category,sports documentaries,10,0.6582,0.4444,1.0,1.0,1.0
+hybrid_pinned,c05,category,stop motion animation,10,0.7601,0.7,1.0,1.0,1.0
+hybrid_pinned,c06,category,found footage horror,10,0.9069,1.0,1.0,1.0,1.0
+hybrid_pinned,c07,category,courtroom drama,10,0.0734,0.1,1.0,0.0,1.0
+hybrid_pinned,c08,category,time travel movies,10,0.63,0.5,1.0,1.0,1.0
+hybrid_pinned,d01,descriptive,astronaut stranded alone on mars,10,0.6885,1.0,1.0,0.0,1.0
+hybrid_pinned,d02,descriptive,soldier relives the same day fighting aliens,10,0.0,0.0,0.0,0.0,1.0
+hybrid_pinned,d03,descriptive,rat who wants to be a chef in paris,10,1.0,1.0,1.0,1.0,1.0
+hybrid_pinned,d04,descriptive,man falls in love with his computer operating system,10,0.0,0.0,0.0,0.0,1.0
+hybrid_pinned,d05,descriptive,jazz drummer with an abusive music teacher,10,1.0,1.0,1.0,1.0,1.0
+hybrid_pinned,d06,descriptive,boy visits the land of the dead to find his musician ancestor,10,0.8262,0.5,1.0,1.0,1.0
+hybrid_pinned,d07,descriptive,linguist tries to communicate with aliens,10,0.6309,1.0,0.5,0.0,1.0
+hybrid_pinned,d08,descriptive,rival magicians in victorian london,10,0.721,0.5,1.0,1.0,1.0
+hybrid_pinned,v01,vibe,feel-good movie about food and cooking,10,0.0983,0.2,0.1667,0.0,1.0
+hybrid_pinned,v02,vibe,something scary but not gory,10,0.3236,0.4,0.5,0.0,1.0
+hybrid_pinned,v03,vibe,movies that will make me cry,10,0.0245,0.1,0.1429,0.0,1.0
+hybrid_pinned,v04,vibe,mind-bending sci-fi with a twist,10,0.2319,0.4,0.5,0.0,1.0
+hybrid_pinned,v05,vibe,funny movie to watch with the whole family,10,0.3752,0.7,0.3333,0.0,1.0
+hybrid_pinned,v06,vibe,slow burn psychological thriller,10,0.5154,0.8,1.0,1.0,1.0
+hybrid_pinned,v07,vibe,inspiring true story about an underdog athlete,10,0.462,0.9,0.5,0.0,1.0
+hybrid_pinned,v08,vibe,dark comedy about rich people behaving badly,10,0.1262,0.3,1.0,0.0,1.0
