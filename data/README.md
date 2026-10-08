@@ -1,5 +1,7 @@
 # Data
 
+The inputs to the eval: the film catalog, the golden query sets and the graded relevance judgments.
+
 ## catalog.jsonl
 
 5,065 films, one JSON object per line: `id`, `title`, `year`, `genres`, `cast`, `extract`.
